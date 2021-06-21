@@ -14,6 +14,7 @@ public class HashMe {
         try
         {
             MessageDigest md = MessageDigest.getInstance("MD5");
+	    //YEET
             md.update(str.getBytes());
             byte byteData[] = md.digest();
             sb= new StringBuffer();
