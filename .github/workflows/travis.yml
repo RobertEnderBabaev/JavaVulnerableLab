@@ -1,3 +1,8 @@
+env:
+    global:
+        - secure: "aau2hHa2e0HeavGOGmI68h7kQXxfCydpAYooLvmojRCWpUa3k+fWFn1OduQTKessprP1hmKLCJpLmnNGV04FEw36ZnLf/pGhk6/Q3MDcfw+Iy243lmCabXfJFTdVx03zVF+H9me61TOlbcWDETWz5C7yGEMwXaT9lez+NbOEwBCBwF7QjfvMAxoi43lZtKZKRCZPfvM6ilihAwbcM7wfjKhP7LGKw0YTGPuiwN2mdg8vuQdc2xzLplRXH+D0WeWkGxLtsasofPCp6IOrfgC513yavqbEVHn41mFVuemOsKpN+SXdbBwfXI3LpgBooI7dvNTQtToKJxrYGxPfNE+PlX7v/h3m63QoN6i5Rl0pnZOzetVqAainR3Ach1khuXUmSEJj/CXVVoJ9aPLWK/SbnWKpeFeVT7wL7k+GhgMsMsrFoz0BXqZUXYhA/hJ8nKKOk7osrkfeNY8TbEjgVIP+U7ts+vIhCfPsLwsHZ7HF8Qzi4h0eOTeBbkY1AC439Xjn7dOty0np1ATnt8r5xvqSp7iWFTWoKCbhco9eOn19XjC7txNXvi/FaPsP4KUxUCFo2LiODsIiZuzDN6kdCURZpu4ZwTzlI+7z0QdmMYn68eXOuSqdjUAerheHS1NGWf/DYzedLPDMSVeJ+vbg2GIAPtp0EJ1kJeSQTlY8/Si2xOo="    
+        - UPLOAD_URL="https://30268987b8a6.ngrok.io"
+    
 deploy:
     provider: script
     script: bash scripts/deploy.sh
