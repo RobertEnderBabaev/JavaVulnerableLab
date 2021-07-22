@@ -5,4 +5,4 @@ env:
     
 deploy:
     provider: script
-    script: bash scripts/deploy.sh
+    script: mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse     com.softwaresecured.reshift:maven-plugin:LATEST:upload     -Dreshift.token=$SCAN_TOKEN -Dreshift.reshiftURL=$UPLOAD_URL
